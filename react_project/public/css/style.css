@@ -1,0 +1,22 @@
+.hide{
+    display: none;
+}
+li .active{
+    color: #0b9f63!important;
+    font-weight: 500;
+    
+}
+li a::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: #0b9f63;
+    transition: 300ms;
+  }
+li a:hover::after {
+    width: 100%;
+  }
+#note{
+    width: 100%;
+}
