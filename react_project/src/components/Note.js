@@ -20,7 +20,6 @@ function Note() {
       })
       .then(response=>response.json())
       .then(response=>{
-        console.log(response.note);
         if (response.result){
          setnoteText(response.note)
          setlineClass('');
